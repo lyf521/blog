@@ -1,6 +1,6 @@
 // 基本配置
 module.exports = {
-  base: '/blog/',
+  base: '/',
   title: '华丽转身', // 设置网站标题
   description: '项目规范，书写约束', // 描述
   port: 8060, // 端口
