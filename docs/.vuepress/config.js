@@ -1,6 +1,6 @@
 // 基本配置
 module.exports = {
-  base: '/',
+  base: '/blog/dist/',
   title: '华丽转身', // 设置网站标题
   description: '项目规范，书写约束', // 描述
   dest: './dist', // 设置输出目录
