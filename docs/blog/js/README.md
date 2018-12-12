@@ -278,7 +278,7 @@ console.log(arr2)
    return arr.reduce(function(cur, next) {
      obj[next.id] ? '' : obj[next.id] = true && cur.push(next)
      return cur
-   }, [])
+   }, [])  //设置cur默认类型为数组，并且初始值为空的数组
  }
  let person = [
      {id: 0, name: "小明"},
