@@ -11,7 +11,8 @@ module.exports = {
         text: 'Blog', 
         items: [
           {text: 'B612', link: '/blog/b612/'},
-          {text: 'Node', link: '/blog/node/'}
+          {text: 'Node', link: '/blog/node/'},
+          {text: 'JS', link: '/blog/js/'}
         ]
       },
       {text: '', link: ''},
@@ -33,6 +34,16 @@ module.exports = {
           children: [
             'h5',
             'imgCanvas'
+          ]
+        }
+      ],
+      '/blog/js/': [
+        {
+          title:'JS经典',
+          collapsable: false,
+          children: [
+            '',
+            'sort'
           ]
         }
       ]
