@@ -438,3 +438,4 @@ uuid获取是用页面url的部分参数转换的方式，外部浏览器也可�
   http://qa.b612kaji.com/test/test_uuid.html?uuid={ad_did}
   <a href="b612cnb://inappBrowser?url=http%3A%2F%2Fqa.b612kaji.com%2Ftest%2Ftest_uuid.html%3Fuuid%3D%7Bad_did%7D">UUID</a>
 ```
+

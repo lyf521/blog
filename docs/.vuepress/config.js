@@ -10,7 +10,7 @@ module.exports = {
       {
         text: 'Blog', 
         items: [
-          {text: 'B612', link: '/blog/b612/'},
+          {text: 'B612', link: '/blog/b612/default.html'},
           {text: 'Node', link: '/blog/node/'},
           {text: 'JS', link: '/blog/js/'}
         ]
@@ -33,7 +33,8 @@ module.exports = {
           collapsable: false,
           children: [
             'h5',
-            'imgCanvas'
+            'imgCanvas',
+            'question'
           ]
         }
       ],
@@ -44,6 +45,22 @@ module.exports = {
           children: [
             '',
             'sort'
+          ]
+        }
+      ],
+      '/blog/node/': [
+        {
+          title:'Node',
+          collapsable:false,
+          children: [
+            ''
+          ]
+        },
+        {
+          title:'',
+          collapsable:false,
+          children: [
+            'generator'
           ]
         }
       ]
